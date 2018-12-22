@@ -1,0 +1,11 @@
+{
+  "name": "extstats-vega",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.1.4",
+    "@angular/core": "^7.1.4",
+    "vega-embed": "~3.18.2",
+    "vega": "^2.6.0",
+    "extstats-core": "^0.12.0"
+  }
+}
