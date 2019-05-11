@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
-import { ExtstatsVegaComponent } from './extstats-vega.component';
-import {ChartPaneComponent} from "./chart-pane/chart-pane.component";
-import {ChartDirective} from "./chart.directive";
+import { ChartPaneComponent } from "./chart-pane/chart-pane.component";
+import { ChartDirective } from "./chart.directive";
 
 @NgModule({
     imports: [
     ],
     declarations: [
-        ExtstatsVegaComponent,
         ChartDirective,
         ChartPaneComponent
     ],

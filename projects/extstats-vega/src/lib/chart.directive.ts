@@ -2,7 +2,6 @@ import {CollectionWithPlays} from "extstats-core";
 import {AfterViewInit, Directive, ElementRef, HostListener, Input} from '@angular/core';
 import {ChartDefinition} from "./charts";
 import {ChartPaneComponent} from "./chart-pane/chart-pane.component";
-import {VisualizationSpec, vega} from "vega-embed";
 import embed from "vega-embed";
 
 @Directive({
